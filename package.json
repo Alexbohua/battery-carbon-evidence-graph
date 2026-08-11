@@ -1,0 +1,28 @@
+{
+  "name": "battery-carbon-knowledge-graph",
+  "version": "0.1.0",
+  "description": "An evidence-grounded, bilingual battery product and factory carbon knowledge graph.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "cytoscape": "^3.34.0",
+    "lucide-react": "^1.31.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "lca",
+    "battery",
+    "carbon-footprint",
+    "knowledge-graph",
+    "cytoscape"
+  ]
+}
